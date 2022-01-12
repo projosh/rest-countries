@@ -16,5 +16,4 @@ async function fetchCancan (){
     querySelector.innerHTML = name;
     
 }
-window.addEventListener("load" , fetchCancan());
-
+window.addEventListener("load" , fetchCancan);
