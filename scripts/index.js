@@ -11,6 +11,7 @@ async function render (){
         
         
     });
+    
 
     const querySelector = document.querySelector("#countries");
     querySelector.innerHTML = name;
