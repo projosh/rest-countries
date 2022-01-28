@@ -11,8 +11,8 @@ async function render() {
     cards += `
         <div class="col">
           <div class="card h-100">
-            <a href="${country.maps.openStreetMaps}">
-            <img src = "${country.flags.png}" class="card-img-top" alt="country.flags.png">
+            <a href="${country.maps.openStreetMaps}" target="_blank">
+            <img src = "${country.flags.png}" class="card-img-top" alt="${country.name.official}">
             </a>
             <div class="card-body">
               <h5 class="card-title">${country.name.official}</h5>
